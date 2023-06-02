@@ -1,0 +1,23 @@
+{
+  "name": "blockchain-voting-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "truffle": "^5.5.24"
+  }
+}

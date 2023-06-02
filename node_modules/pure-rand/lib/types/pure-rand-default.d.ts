@@ -1,0 +1,13 @@
+import { RandomGenerator, generateN, skipN } from './generator/RandomGenerator';
+import { congruential, congruential32 } from './generator/LinearCongruential';
+import mersenne from './generator/MersenneTwister';
+import { xorshift128plus } from './generator/XorShift';
+import { xoroshiro128plus } from './generator/XoroShiro';
+import Distribution from './distribution/Distribution';
+import { uniformArrayIntDistribution } from './distribution/UniformArrayIntDistribution';
+import { uniformBigIntDistribution } from './distribution/UniformBigIntDistribution';
+import { uniformIntDistribution } from './distribution/UniformIntDistribution';
+declare const __type: string;
+declare const __version: string;
+declare const __commitHash: string;
+export { __type, __version, __commitHash, RandomGenerator, generateN, skipN, congruential, congruential32, mersenne, xorshift128plus, xoroshiro128plus, Distribution, uniformArrayIntDistribution, uniformBigIntDistribution, uniformIntDistribution, };
