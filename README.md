@@ -31,7 +31,7 @@ Open your browser and configure metamask. Create a wallet and store your```Secre
 
 ```git clone https://github.com/shifaj22/E-Voting_System_Blockchain```
 
-```cd blockchain-voting-system```
+```cd E-Voting_System_Blockchain```
 
 ```npm i```
 
